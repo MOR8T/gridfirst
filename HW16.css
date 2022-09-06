@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+.container {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: rgb(111, 111, 111);
+}
+.container h1 {
+    margin-top: 80px;
+    font-size: 2.4em;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+.container p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container a {
+    padding: 10px 16px;
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.container a:hover {
+    background-color: rgb(210, 210, 210);
+    color: rgb(111, 111, 111);
+}
+.cont {
+    padding: 20px;
+    position: absolute;
+    right: 7px;
+    top: 0px;
+}
+.cont:hover {
+    background-color: rgb(210, 210, 210);
+}
+.block {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(111, 111, 111);
+    margin: 5px 0px;
+}
+.con1 {
+    margin: 10px;
+}
+
+
+
+.container-second {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,auto);
+    place-items: start;
+    margin: 10px;
+}
+.content {
+    width: 100%;
+}
+.content img {
+    width: 100%;
+}
+.con {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+
+
+
+.container-end {
+    width: 100%;
+    height: 210px;
+    text-align: center;
+    color: rgb(111, 111, 111);
+    background-color: rgb(244, 244, 244);
+}
+.container-end i:hover {
+    color: rgb(187, 187, 187);
+}
+.container-end p:first-child {
+    font-size: 1.5em;
+    margin-top: 80px;
+    padding-top: 80px;
+}
+.container-end p:last-child {
+    margin-top: 20px;
+}
+.container-end a {
+    color: rgb(111, 111, 111);
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container-end a:hover {
+    color: rgb(0, 255, 0);
+}
